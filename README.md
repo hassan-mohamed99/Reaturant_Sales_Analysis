@@ -10,7 +10,7 @@ It helps management make **data-driven decisions** by monitoring KPIs such as sa
 
 ---
 
-## 🛠Tools & Technologies
+## Tools & Technologies
 - **Power BI Desktop** for data modeling and visualization.  
 - **CSV** as the data source.  
 - **DAX (Data Analysis Expressions)** for custom measures and calculations.
@@ -55,7 +55,7 @@ The data model follows a **Star Schema** design:
 ---
 
 ## Dashboard Preview
-![Dashboard Preview](Capture2.PNG)
+![Dashboard Preview](Dashboard_Details_Page.PNG)
 
 ---
 
@@ -73,7 +73,3 @@ The data model follows a **Star Schema** design:
 - Orders distribution by time of day.  
 - Income by category (Asian, American and Italian).  
 - Orders by day of the week. 
-
----
-
-
