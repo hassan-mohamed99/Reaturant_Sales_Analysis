@@ -38,15 +38,15 @@ It helps management make **data-driven decisions** by monitoring KPIs such as sa
 ## Data Modeling
 The data model follows a **Star Schema** design:  
 - **Fact Table**  
-  - `order.Fact`: contains order details, income, date, and time.  
+  - order.Fact: contains order details, income, date, and time.  
 - **Dimension Tables**  
-  - `menu_items.Dim`: categories, item names, prices.  
-  - `Date.Dim`: calendar and time intelligence.  
-  - `Events.Dim`: special events and dates.  
+  - menu_items.Dim: categories, item names, prices.  
+  - Date.Dim: calendar and time intelligence.  
+  - Events.Dim: special events and dates.  
 - **Helper Tables**  
-  - `Measures Table`:store measures and calculations.
-  - `Measure_Selection`: store and switch measures dynamically.  
-  - `Products`: product-level grouping for analysis.  
+  - Measures Table:store measures and calculations.
+  - Measure_Selection: store and switch measures dynamically.  
+  - Products: product-level grouping for analysis.  
 - **created a Date Dimension table from scratch using Power Query.**
  - This table covers the full date range of the dataset and includes additional columns for detailed analysis.
  - By building this table manually instead of relying only on raw order dates, the model supports Consistent time-based slicers (Year, Month, Week, Day).
