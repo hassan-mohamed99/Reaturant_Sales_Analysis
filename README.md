@@ -54,7 +54,7 @@ The data model follows a **Star Schema** design:
 ---
 
 ## Dashboard Preview
-![Dashboard Preview](Dashboard_Details_Page.PNG)
+![Dashboard Preview](Images/Dashboard_Details_Page.PNG)
 
 ---
 
